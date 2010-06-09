@@ -38,6 +38,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://github.com/houyr/tracimg/raw/master/updates.plist</string>
 	<key>Website</key>
 	<string>http://damienh.org</string>
 </dict>
