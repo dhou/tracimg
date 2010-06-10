@@ -1,11 +1,11 @@
-// ==UserScript==
-// @name           Render links to images inline in Trac (no duplicated images)
-// @description    Display images (including attachments) as images directly in a Trac page. Based on work of Britt Selvitelle, fixed duplicated images [http://userscripts.org/scripts/show/20411]
-// @namespace      trac
-// @author		   Damien Hou
-// @include        http*://trac*/ticket*
-// @include        http*://trac*/wiki*
-// ==/UserScript==
+/**
+ * tracimg
+ * Shows images and swfs inline on Trac pages
+ * ported from greasemonkey script http://userscripts.org/scripts/show/58540
+ * Damien Hou
+ * http://damienh.org
+ **/
+
 addEventListener("load", renderImages, false);
 function renderImages() {
 	if (window.location.href.indexOf('trac') < 0) {
